@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(141, 125, 123);
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  position: absolute; /*absolute syntax angiver, at .box elementet skal positioneres absolut i forhold til body element */
+
+  /*Angivelse af afstand til vinduets sider.*/
+  top:50%;
+  left: 50%;
+
+  /*hele element i center*/ 
+  transform: translate(-50%, -50%);
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 20px;
+  width: 450px;
+  border: none;
+  font-size: 26px;
+  box-shadow: 0px 15px 25px rgb(21, 20, 63);
+}

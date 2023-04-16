@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.header{
+  font-size: 75px;
+  font-family: 'Tilt Prism', cursive;
+  margin: 50%, 50%;
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+
+.button{
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border-color: aqua;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration:none;
+  font-size: 26px;
+  cursor: pointer;
+} 
+
+ #icon-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 250px;
+}
+
+
+/*chat gpt code*/
+
+#icon-menu {
+  display: none;
+  flex-direction: row;
+  position: absolute;
+
+  /*Sætter afstanden til at være i midten af parent container (body)*/
+  top: 50%;
+  left: 50%;
+  padding: 9px;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+#icon-menu a {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+#icon-menu a i {
+  font-size: 80px;
+}
+

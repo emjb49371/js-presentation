@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  
+  <div class="box">
+    <select name="colors" onchange="changeColor(this)">
+      <option value="" selected disabled>Vælg en farve</option>
+      <option value="red">Rød</option>
+      <option value="#0563af">Blå</option>
+      <option value="rgb(31, 139, 73)">Grøn</option>
+      <option value="yellow">Gul</option>
+    </select> 
+  </div>
+
+  <script>
+  function changeColor (event){
+    let color = event.value;
+    document.getElementsByTagName('body')
+    [0].style.backgroundColor=color;
+  }
+  </script>
+
+</body>
+</html>
